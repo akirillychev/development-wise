@@ -21,7 +21,7 @@ function Community() {
         <Row>
           <Col>
             <h2 className="page__header">
-              Welcome to our Career Change Community
+              Welcome to our Develope Wise Community
             </h2>
             <Row>
               <Col>
