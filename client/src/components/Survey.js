@@ -33,7 +33,7 @@ function Survey() {
           </Col>
         </Row>
         <hr />
-        {authUser ? (
+         
           <Row>
             <Col xs={4}>
               {quizQuestons.map((question) => (

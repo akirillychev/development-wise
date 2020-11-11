@@ -10,11 +10,10 @@ function Tutors() {
           <div className="page__header">
             <h2>Tutors</h2>
             <h3>
-              We have some amazing group of tutors who would like to provide you
-              the right direction of your career
+              We have some amazing group of tutors who would like to help you.
             </h3>
             <p>
-              You can enroll any of this below package and we will go from there
+              You can enroll in one of our packages
             </p>
           </div>
           <hr />
@@ -26,14 +25,13 @@ function Tutors() {
                 </Card.Header>
                 <Card.Body>
                   <div className="price__container">
-                    <h1>$35</h1>
+                    <h1>$45</h1>
                   </div>
                   <div className="package__description">
-                    <h4>Services We are Offering</h4>
+                    <h4>What's Included</h4>
                     <hr />
                     <ul>
                       <li>100% Remote/Onsite</li>
-                      <li>Explaining lessons preciously</li>
                       <li>Explaining lessons preciously</li>
                       <li>Provide homework daily basis</li>
                       <li>Take quizes/exams weekly</li>
@@ -55,18 +53,15 @@ function Tutors() {
                 </Card.Header>
                 <Card.Body>
                   <div className="price__container">
-                    <h1>$45</h1>
+                    <h1>$25</h1>
                   </div>
                   <div className="package__description">
-                    <h4>Services We are Offering</h4>
+                    <h4>What's included</h4>
                     <hr />
                     <ul>
                       <li>100% Remote/Onsite</li>
                       <li>Explaining lessons preciously</li>
-                      <li>Explaining lessons preciously</li>
                       <li>Provide homework daily basis</li>
-                      <li>Take quizes/exams weekly</li>
-                      <li>Hands on experience</li>
                     </ul>
                   </div>
                 </Card.Body>
@@ -84,18 +79,17 @@ function Tutors() {
                 </Card.Header>
                 <Card.Body>
                   <div className="price__container">
-                    <h1>$40</h1>
+                    <h1>$30</h1>
                   </div>
                   <div className="package__description">
-                    <h4>Services We are Offering</h4>
+                    <h4>What's included</h4>
                     <hr />
                     <ul>
                       <li>100% Remote/Onsite</li>
                       <li>Explaining lessons preciously</li>
-                      <li>Explaining lessons preciously</li>
                       <li>Provide homework daily basis</li>
                       <li>Take quizes/exams weekly</li>
-                      <li>Hands on experience</li>
+                      
                     </ul>
                   </div>
                 </Card.Body>

@@ -13,7 +13,7 @@ function Home() {
             <Typist cursor={{ show: false }}>
               <div className="title">
                 <p>
-                  Welcome to <strong>Develope Wise</strong>
+                  Welcome to <strong>Development Wise</strong>
                 </p>
                 <p className="subtitle">A new way to drive your career</p>
               </div>

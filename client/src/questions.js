@@ -3,7 +3,7 @@ const quiz = [
     q: "Inside which HTML element do we put the JavaScript?",
     options: [
       { value: 1, text: "js" },
-      { value: 2, text: "javascript" },
+      { value: 2, text: "html" },
       { value: 3, text: "script" },
       { value: 4, text: "scripting" },
     ],

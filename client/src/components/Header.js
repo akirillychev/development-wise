@@ -25,7 +25,7 @@ function Header() {
   return (
     <div className="header">
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/">Develope Wise</Navbar.Brand>
+        <Navbar.Brand href="/">Development Wise</Navbar.Brand>
         <Navbar.Toggle aria-controls="career-change-navbar" />
         <Navbar.Collapse id="career-change-navbar">
           <Nav className="mr-auto">
