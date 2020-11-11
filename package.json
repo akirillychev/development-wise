@@ -1,28 +1,32 @@
 {
   "name": "development-wise",
   "version": "1.0.0",
-  "description": "Backend",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && yarn install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
-  "author": "Andrew Kirillychev",
+  "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.7"
+  },
   "dependencies": {
+    "axios": "^0.18.0",
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.19.0",
-    "consola": "^2.15.0",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.2.5",
+    "express": "^4.16.3",
+    "express-session": "^1.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.3.16",
     "passport": "^0.4.1",
-    "passport-jwt": "^4.0.0",
-    "sequelize": "^6.3.5",
-    "sequelize-cli": "^6.2.0",
-    "uuid": "^8.3.1"
+    "passport-local": "^1.0.0"
   }
 }
